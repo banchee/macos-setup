@@ -1,0 +1,13 @@
+evernote
+gitx
+graphviz
+hedgewars
+kap
+macdown
+minikube
+ngrok
+osxfuse
+shiftit
+skype
+textmate
+vlc
