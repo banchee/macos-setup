@@ -1,0 +1,11 @@
+https://www.emclient.com/dist/v7.1.33101/setup.msi?_ga=2.59688557.1548484138.1538563649-1753993728.1538563649
+https://download.scdn.co/SpotifyInstaller.zip
+https://zoom.us/client/latest/zoomusInstaller.pkg
+https://prerelease.keybase.io/Keybase.dmg
+https://download.bjango.com/istatmenus/
+https://app-updates.agilebits.com/download/OPM7
+https://releases.gpgtools.org/GPG_Suite-2018.4_2.dmg
+https://download.docker.com/mac/stable/Docker.dmg
+https://www.dropbox.com/download?plat=mac
+https://iterm2.com/downloads/stable/iTerm2-3_2_2.zip
+https://www.mozilla.org/en-US/firefox/download/thanks/

@@ -1,0 +1,29 @@
+Host 172.20*
+		ProxyCommand ssh -W %h:%p ross.purdon@bastion.dev.pdg.io -i ~/.ssh/id_rsa
+		User ross.purdon
+		UserKnownHostsFile /dev/null
+		StrictHostKeyChecking no
+
+Host 172.22*
+		ProxyCommand ssh -W %h:%p ross.purdon@bastion.testing.pdg.io -i ~/.ssh/id_rsa
+		User ross.purdon
+		UserKnownHostsFile /dev/null
+		StrictHostKeyChecking no
+
+Host 172.24*
+    ProxyCommand ssh -W %h:%p ross.purdon@bastion.staging.pdg.io -i ~/.ssh/id_rsa
+    User ross.purdon
+    UserKnownHostsFile /dev/null
+    StrictHostKeyChecking no
+
+Host 172.26*
+    ProxyCommand ssh -W %h:%p ross.purdon@bastion.prod.pdg.io -i ~/.ssh/id_rsa
+    User ross.purdon
+    UserKnownHostsFile /dev/null
+    StrictHostKeyChecking no
+
+Host 172.30*
+    ProxyCommand ssh -W %h:%p ross.purdon@jump.master.pdg.io -i ~/.ssh/id_rsa
+    User ross.purdon
+    UserKnownHostsFile /dev/null
+    StrictHostKeyChecking no
